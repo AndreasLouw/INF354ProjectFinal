@@ -8,7 +8,7 @@
 
     <asp:Chart ID="Chart1" runat="server" DataSourceID="sdsClient">
         <series>
-            <asp:Series Name="Series1">
+            <asp:Series Name="Series1" XValueMember="clientId" YValueMembers="furnitureId">
             </asp:Series>
         </series>
         <chartareas>
